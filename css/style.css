@@ -86,8 +86,72 @@
     margin-top: 48px;
   }
 
-  #habilidades {
+  #sect-sec > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #habilidades, #certificados {
     margin-top: 24px;
     border-top: 1px #007 solid;
     padding: 18px;
+  }
+
+  #certificados > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    gap: 5px;
+    border: 1px dotted #00f;
+    border-radius: 10px;
+  }
+
+  figure > img {
+    width: 500px;
+    height: auto;
+  }
+
+  figure > figcaption {
+    color: #009;
+    font-size: 24px;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+  }
+
+  #htmlCard {
+    background-color: #ff89448e;
+  }
+
+  #cssCard {
+    background-color: #3939fa8e;
+  }
+
+  #jsCard {
+    background-color: #ffff0079;
+  }
+
+  #tsCard {
+    background-color: #0a0aa18e;
+  }
+
+  #tsCard > figcaption {
+    color: #fff;
+  }
+
+  #cssmodernoCard {
+    background-color: #7d39fa8e;
   }
