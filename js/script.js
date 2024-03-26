@@ -19,7 +19,7 @@ document
   .addEventListener("submit", function (e) {
     e.preventDefault();
 
-    let formData = new FormData(this);
+    var formData = new FormData(this);
 
     fetch(this.action, {
       method: "POST",
