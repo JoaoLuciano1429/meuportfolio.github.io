@@ -93,7 +93,7 @@
     flex-direction: column;
   }
 
-  #habilidades, #certificados {
+  #habilidades, #certificados, #projetos {
     margin-top: 24px;
     border-top: 1px #007 solid;
     padding: 18px;
@@ -154,4 +154,54 @@
 
   #cssmodernoCard {
     background-color: #7d39fa8e;
+  }
+
+  #projetos > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    gap: 5px;
+    border: 1px dashed #0ff;
+    border-radius: 15px;
+    background-color: #ffffff66;
+  }
+
+  picture > img {
+    width: 400px;
+    height: auto;
+  }
+
+  picture > p {
+    color: #0000c8;
+    font-size: 32px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+  }
+
+  picture[destaque] {
+    border: 2px solid #0ff;
+    animation: emphasis 500ms linear infinite;
+  }
+
+  @keyframes emphasis {
+    from {
+      border: 2px solid #0ff;
+      background-color: #ffffff66;
+}
+    to {
+      border: 2px solid #f00;
+      background-color: #ffffff88;
+    }
   }
