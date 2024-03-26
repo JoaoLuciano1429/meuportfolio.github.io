@@ -21,7 +21,7 @@
         <a href="#habilidades">Habilidades</a>
         <a href="#certificados">Certificados</a>
         <a href="#projetos">Projetos</a>
-        <a href="#">Contato</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
     <main>
@@ -139,6 +139,42 @@
     </main>
     <footer>
       <img src="img/JL-logo.svg" alt="logo-text" />
+      <section id="contato">
+        <h2>Entre em contato:</h2>
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/meqyrong"
+          method="POST"
+        >
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Seu nome"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu email"
+            required
+          />
+
+          <label for="message">Mensagem:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Texto da mensagem"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </footer>
   </body>
 </html>
