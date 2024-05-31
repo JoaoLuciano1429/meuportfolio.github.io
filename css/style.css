@@ -160,6 +160,10 @@ figure > figcaption {
   background-color: #7d39fa8e;
 }
 
+#gitGitHubCard {
+  background-color: #ffa60067;
+}
+
 #projetos > section {
   display: flex;
   align-items: center;
