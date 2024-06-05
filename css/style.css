@@ -97,7 +97,9 @@ h2 {
 
 #habilidades,
 #certificados,
-#projetos {
+#projetos,
+#linksExternos,
+footer {
   margin-top: 24px;
   border-top: 1px #007 solid;
   padding: 18px;
@@ -164,6 +166,10 @@ figure > figcaption {
   background-color: #ffa60067;
 }
 
+#sassCard {
+  background-color: #db48608f;
+}
+
 #projetos > section {
   display: flex;
   align-items: center;
@@ -214,12 +220,62 @@ picture[destaque] {
   }
 }
 
-footer {
+#linksExternos {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#linksExternos > section {
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+#linksExternos button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  width: 192px;
+  height: 192px;
+  transition: 350ms;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+#linksExternos button img {
+  width: 128px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#linksExternos button span {
+  font-size: 18px;
+}
+
+#linkedinBtn:hover {
+  background-color: #007fbc;
+}
+
+#githubBtn:hover {
+  background-color: #f0563a;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
   padding: 24px;
+  width: 100%;
 }
 
 #contato {
