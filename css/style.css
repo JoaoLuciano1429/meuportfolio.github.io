@@ -8,8 +8,6 @@
 body {
   background-color: #8bc6ec;
   background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
-  /* width: 100vw;
-    height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +20,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+  width: 100%;
 }
 
 header > img {
@@ -42,6 +41,8 @@ nav a {
 main {
   border-top: 0.4px solid #007;
   margin-bottom: 48px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 #sect-pri {
@@ -49,12 +50,16 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding: 24px;
+  flex-wrap: wrap;
 }
 
 #sect-pri > div {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  max-width: 500px;
+  text-align: center;
 }
 
 h1,
@@ -86,6 +91,7 @@ h2 {
   align-items: center;
   gap: 24px;
   margin-top: 48px;
+  padding: 0 24px;
 }
 
 #sect-sec > div {
@@ -103,6 +109,7 @@ footer {
   margin-top: 24px;
   border-top: 1px #007 solid;
   padding: 18px;
+  width: 100%;
 }
 
 #certificados > section {
@@ -118,24 +125,23 @@ figure {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  max-width: 600px;
   gap: 5px;
   border: 1px dotted #00f;
   border-radius: 10px;
+  text-align: center;
 }
 
 figure > img {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
 figure > figcaption {
   color: #009;
   font-size: 24px;
-  text-align: center;
-  width: 500px;
-  height: 100px;
 }
 
 #htmlCard {
@@ -183,25 +189,25 @@ picture {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 500px;
-  height: 400px;
+  width: calc(100% + 50px);
+  max-width: 500px;
+  padding: 20px;
   gap: 5px;
   border: 1px dashed #0ff;
   border-radius: 15px;
   background-color: #ffffff66;
+  text-align: center;
 }
 
 picture > img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
 picture > p {
   color: #0000c8;
   font-size: 32px;
-  text-align: center;
-  width: 400px;
-  height: 100px;
 }
 
 picture[destaque] {
@@ -232,7 +238,6 @@ picture[destaque] {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
 }
@@ -293,6 +298,7 @@ form {
   justify-content: center;
   flex-direction: column;
 }
+
 form label {
   color: #005;
 }

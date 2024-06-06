@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 # Mudanças:
 
+06/06/2024: Implantação de responsividade para vários tamanhos de telas.
+
 05/06/2024: Adicionado certificado de Sass, adicionado links externos.
 
 31/05/2024: Adicionado certificado de GIT e GitHub.

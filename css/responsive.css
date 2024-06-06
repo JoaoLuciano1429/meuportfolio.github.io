@@ -1,0 +1,225 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+
+  header > img {
+    width: 20%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  #sect-pri {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sect-pri > div {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #sect-pri > img {
+    width: 150px;
+  }
+
+  figure,
+  picture {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  figure > img,
+  picture > img {
+    max-width: 100%;
+  }
+
+  figure > figcaption,
+  picture > p {
+    font-size: 18px;
+  }
+
+  #linksExternos button {
+    width: 150px;
+    height: 150px;
+  }
+
+  #linksExternos button img {
+    width: 100px;
+  }
+
+  #linksExternos button span {
+    font-size: 16px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  #contato {
+    border-left: none;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+}
+
+/* Tablets and larger smartphones ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header > img {
+    width: 15%;
+  }
+
+  #sect-pri {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sect-pri > div {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #sect-pri > img {
+    width: 175px;
+  }
+
+  figure,
+  picture {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  figure > img,
+  picture > img {
+    max-width: 100%;
+  }
+
+  figure > figcaption,
+  picture > p {
+    font-size: 20px;
+  }
+
+  #linksExternos button {
+    width: 170px;
+    height: 170px;
+  }
+
+  #linksExternos button img {
+    width: 110px;
+  }
+
+  #linksExternos button span {
+    font-size: 18px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  #contato {
+    border-left: none;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1025px) {
+  header {
+    padding: 24px;
+  }
+
+  header > img {
+    width: 10%;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  #sect-pri {
+    flex-direction: row;
+  }
+
+  #sect-pri > div {
+    max-width: 500px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  #sect-pri > img {
+    width: 192px;
+  }
+
+  figure,
+  picture {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  figure > img,
+  picture > img {
+    max-width: 400px;
+  }
+
+  figure > figcaption,
+  picture > p {
+    font-size: 24px;
+  }
+
+  #linksExternos button {
+    width: 192px;
+    height: 192px;
+  }
+
+  #linksExternos button img {
+    width: 128px;
+  }
+
+  #linksExternos button span {
+    font-size: 18px;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  form input,
+  form textarea {
+    width: 200px;
+  }
+}
