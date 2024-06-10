@@ -128,6 +128,7 @@ figure {
   width: 100%;
   max-width: 600px;
   gap: 5px;
+  padding: 20px;
   border: 1px dotted #00f;
   border-radius: 10px;
   text-align: center;
