@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 # Mudanças:
 
+11/09/2024: Adicionado certificado de BootStrap
+
 06/06/2024: Implantação de responsividade para vários tamanhos de telas.
 
 05/06/2024: Adicionado certificado de Sass, adicionado links externos.

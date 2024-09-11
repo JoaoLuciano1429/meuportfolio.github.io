@@ -177,6 +177,10 @@ figure > figcaption {
   background-color: #db48608f;
 }
 
+#bootstrapCard {
+  background-color: #80008083;
+}
+
 #projetos > section {
   display: flex;
   align-items: center;
