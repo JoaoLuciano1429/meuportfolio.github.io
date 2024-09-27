@@ -35,3 +35,5 @@ document
       })
       .catch((error) => console.error("Erro ao enviar o formulário:", error));
   });
+
+document.querySelector("[destaque]").setAttribute("title", "Destaque");

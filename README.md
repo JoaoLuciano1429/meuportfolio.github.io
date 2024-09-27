@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 # Mudanças:
 
+27/09/2024: Adicionado certfificado de React
+
 13/09/2024: Informações atualizadas
 
 11/09/2024: Adicionado certificado de BootStrap

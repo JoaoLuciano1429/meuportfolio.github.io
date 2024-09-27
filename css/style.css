@@ -181,6 +181,10 @@ figure > figcaption {
   background-color: #80008083;
 }
 
+#reactCard {
+  background-color: #00ccff8e;
+}
+
 #projetos > section {
   display: flex;
   align-items: center;
