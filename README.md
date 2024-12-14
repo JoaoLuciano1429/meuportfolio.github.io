@@ -2,7 +2,9 @@
 
 Meu portfólio de desenvolvedor web
 
-# Mudanças:
+## Mudanças
+
+13/12/2024: Adicionado novo projeto
 
 27/09/2024: Adicionado certfificado de React
 
