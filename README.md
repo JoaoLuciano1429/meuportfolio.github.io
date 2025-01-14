@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 ## Mudanças
 
+14/01/2025: Correção no elemento de imagem dinâmica
+
 13/12/2024: Adicionado novo projeto
 
 27/09/2024: Adicionado certfificado de React

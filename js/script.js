@@ -38,7 +38,7 @@ document
 
 document.querySelector("[destaque]").setAttribute("title", "Destaque");
 
-const dynamic = document.getElementById("dynamicSRC");
+const dynamic = document.querySelector("#dynamicSRC");
 
 function dynamicalImage() {
   const date = new Date();
@@ -47,28 +47,40 @@ function dynamicalImage() {
   switch (month) {
     case 0:
       dynamic.src = "img/month/janeiro.png";
+      break;
     case 1:
       dynamic.src = "img/month/fevereiro.png";
+      break;
     case 2:
       dynamic.src = "img/month/março.png";
+      break;
     case 3:
       dynamic.src = "img/month/abril.png";
+      break;
     case 4:
       dynamic.src = "img/month/maio.png";
+      break;
     case 5:
       dynamic.src = "img/month/junho.png";
+      break;
     case 6:
       dynamic.src = "img/month/julho.png";
+      break;
     case 7:
       dynamic.src = "img/month/agosto.png";
+      break;
     case 8:
       dynamic.src = "img/month/setembro.png";
+      break;
     case 9:
       dynamic.src = "img/month/outubro.png";
+      break;
     case 10:
       dynamic.src = "img/month/novembro.png";
+      break;
     case 11:
       dynamic.src = "img/month/dezembro.png";
+      break;
   }
 }
 
