@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 ## Mudanças
 
+12/05/2025: Adicionado novo projeto
+
 07/03/2025: Adicionado novo projeto
 
 14/01/2025: Correção no elemento de imagem dinâmica
