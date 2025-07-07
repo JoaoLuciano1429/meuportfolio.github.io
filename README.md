@@ -4,6 +4,8 @@ Meu portfólio de desenvolvedor web
 
 ## Mudanças
 
+07/07/2025: Atualização dos certificados de HTML e CSS, mais metadados
+
 12/05/2025: Adicionado novo projeto
 
 07/03/2025: Adicionado novo projeto
