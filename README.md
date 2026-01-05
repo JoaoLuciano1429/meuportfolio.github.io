@@ -4,6 +4,9 @@ Meu portfólio de desenvolvedor web
 
 ## Mudanças
 
+05/01/2026: Atualização da imagem dos cards dos projetos de hinos do Brasileirão Séries A, B e C, e do card do projeto do Acervo de Fotos;
+Remoção do formulário de contato, substituído por botões de link diretos;
+
 30/09/2025: Atualização da imagem do card do projeto do Currículo
 
 07/07/2025: Atualização dos certificados de HTML e CSS, mais metadados

@@ -74,11 +74,6 @@
   #contato {
     border-left: none;
   }
-
-  form input,
-  form textarea {
-    width: 100%;
-  }
 }
 
 /* Tablets and larger smartphones ----------- */
@@ -143,11 +138,6 @@
 
   #contato {
     border-left: none;
-  }
-
-  form input,
-  form textarea {
-    width: 100%;
   }
 }
 
@@ -216,10 +206,5 @@
 
   footer {
     flex-direction: row;
-  }
-
-  form input,
-  form textarea {
-    width: 200px;
   }
 }

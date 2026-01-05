@@ -299,43 +299,18 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
-form {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-}
-
-form label {
-  color: #005;
-}
-
-form input {
-  height: 30px;
-  width: 200px;
-  border: 1px solid #004;
-  border-radius: 7px;
-  padding-left: 5px;
-}
-
-form textarea {
-  width: 200px;
-  height: 120px;
-  border: 1px solid #004;
-  border-radius: 7px;
-  padding-left: 5px;
-}
-
-form button[type="submit"] {
-  background-color: #008;
-  color: #fff;
-  width: 80px;
-  height: 30px;
-  border: 2px groove #003;
-  border-radius: 10px;
-  margin-top: 10px;
-  align-self: center;
+#contato :is(#mailLink, #waLink, button) {
   cursor: pointer;
+}
+
+#contato button {
+  background-color: #007fbc;
+  color: #fff;
+  border: 3px dashed #fff;
+  outline: 3px solid #007fbc;
+  border-radius: 15px;
+  padding: 5px;
 }

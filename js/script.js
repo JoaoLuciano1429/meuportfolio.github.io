@@ -14,28 +14,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-document
-  .getElementById("contact-form")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    var formData = new FormData(this);
-
-    fetch(this.action, {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => {
-        if (response.ok) {
-          alert("Mensagem enviada com sucesso!");
-          this.reset(); // Reseta o formulário
-        } else {
-          alert("Ocorreu um erro ao enviar a mensagem.");
-        }
-      })
-      .catch((error) => console.error("Erro ao enviar o formulário:", error));
-  });
-
 document.querySelector("[destaque]").setAttribute("title", "Destaque");
 
 const dynamic = document.querySelector("#dynamicSRC");
@@ -85,3 +63,14 @@ function dynamicalImage() {
 }
 
 dynamicalImage();
+
+const mail = document.getElementById("mailLink");
+const zap = document.getElementById("waLink");
+
+mail.addEventListener("click", () => {
+  window.open(atob(mail.dataset.mail), "_blank");
+});
+
+zap.addEventListener("click", () => {
+  window.open(atob(zap.dataset.zap), "_blank");
+});
